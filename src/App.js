@@ -43,11 +43,11 @@ function App(props) {
       <div>This better say "Brodie, Alicia, Margo" : <SuperComponent /> </div>
       {/* send in a prop called "names", give it an array ["Titus","Axel","Claire"]*/}
       <div>This better say "Titus, Axel, Claire" : <SuperComponent /> </div>
-
+dd
       {/* Use App's props*/}
       {/* send in a prop called "products", give it the products array from App's props*/}
       <div>This better say "Hand Sanitizer": <SuperComponent /> </div>
-      {/* send in a prop called "names", give it the names array from App's props*/}
+      {/* send in a prop called "names", give it the  test names array from App's props*/}
       <div>This better say "Robin, Lily, Barney": <SuperComponent /> </div>
       {/* send in a prop called "magicNumber", give it the magicNumber from App's props*/}
       <div>This better say "99": <SuperComponent /> </div>
