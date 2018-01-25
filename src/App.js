@@ -10,12 +10,6 @@ function App(props) {
     name: "ajax",
     description: "Cleans your bathroom real good"
   };
-  const soda = {
-    name: "pepsi"
-  };
-  const shoe = {
-    name: "nike"
-  }
   const names = ["Bob", "Stand", "Todd", "Ted"];
   return (
     <div>
@@ -38,9 +32,9 @@ function App(props) {
       {/* send in a prop called "product", give it the variable product*/}
       <div>This better say "ajax": <SuperComponent product={product} /> </div>
       {/* send in a prop called "product", give it an object with a name property "pepsi"*/}
-      <div>This better say "pepsi": <SuperComponent product={soda} /> </div>
+      <div>This better say "pepsi": <SuperComponent product={{name: "pepsi"}} /> </div>
       {/* send in a prop called "product", give it an object with a name property "nike"*/}
-      <div>This better say "nike": <SuperComponent product={shoe} /> </div>
+      <div>This better say "nike": <SuperComponent product={{name: "nike"}} /> </div>
 
 
       {/* send in a prop called "names", give it the variable names*/}
