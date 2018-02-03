@@ -13,7 +13,7 @@ function App(props) {
   const names = ["Bob", "Stand", "Todd", "Ted"];
   return (
     <div>
-      {/* send in a prop called "message", give it the string "Hello World" */}
+      {/* send in a prop called "message", give it the string "Hello World", ok */}
       <div>This better say "Hello World": <SuperComponent message={"Hello World"} /> </div>
       {/* send in a prop called "message", give it the string "Goodbye World" */}
       <div>This better say "Goodbye World": <SuperComponent /> </div>
