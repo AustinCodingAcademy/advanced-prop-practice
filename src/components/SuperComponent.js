@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 function SuperComponent(props) {
   let content = "";
+  console.log(props)
   if (props.message) {
     content = props.message;
   } else if (props.magicNumber) {
